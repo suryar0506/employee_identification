@@ -1,0 +1,55 @@
+body{
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-position: center bottom;
+}
+
+.btn-primary{
+    width: 100%;
+    font-size: 23px;
+}
+
+#div_inside_heading{
+    background-color: white;
+    width: 80%;
+    border-radius: 25px;
+    color: black;
+}
+
+canvas{
+    border: 3px solid black;
+    border-radius: 25px;
+    box-shadow: 5px 5px 5px grey;
+    margin-top: 150px;
+}
+
+#copyright_footer{
+    bottom: 0;
+    line-height: 3;
+    background-color: grey;
+    width: 100%;
+    text-align: center;
+    position: fixed;
+    font-weight: bold;
+    color: white;
+}
+
+#copyright_footer:hover{
+    animation-name: increase;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-name: font-increase;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    opacity: 6;
+}
+
+@keyframes increase{
+    from{line-height: 3;}
+    to{line-height: 30;}
+}
+
+@keyframes font-increase{
+    from{font-size: 10px;}
+    to{font-size: 70px;}
+}
